@@ -1,6 +1,6 @@
 # BSI Tečajnica in Analiza
 
-Preprosta namizna aplikacija v Javi za pregled tečajev Banke Slovenije, izris grafov in izračun oportunitetnih zaslužkov/izgub med dvema valutama.
+Preprosta namizna aplikacija v Javi za pregled tečajev, izris grafov in izračun zaslužkov in izgub med dvema valutama.
 
 ## Tehnologije
 * **Java** (JDK 11 ali novejši)
@@ -24,6 +24,6 @@ Preprosta namizna aplikacija v Javi za pregled tečajev Banke Slovenije, izris g
 
     **Samodejen prenos podatkov:** Program ob zagonu samodejno prebere in razčleni XML datoteko neposredno s strežnika BSI.
 
-    **Analiza izbranega obdobja:** Uporabnik vnese začetni in končni datum (v formatu LLLL-MM-DD). Aplikacija ustvari tabelarični ter grafični prikaz gibanja tečajev za poljubni dve izbrani valuti.
+    **Analiza izbranega obdobja:** Uporabnik vnese začetni in končni datum (v formatu LLLL-MM-DD). Aplikacija ustvari tabelo ter grafični prikaz gibanja tečajev za poljubni dve izbrani valuti.
 
-    **Oportunitetni izračun:** Za izbrano obdobje se na podlagi prvega in zadnjega veljavnega tečaja izračuna hipotetičen donos za vložek 1000 EUR, ter izpiše, katera valuta bi bila donosnejša.
+    **Oportunitetni izračun:** Za izbrano obdobje se na podlagi prvega in zadnjega veljavnega tečaja izračuna donos za vložek 1000 EUR, ter izpiše, katera valuta bi bila boljša izbira.
